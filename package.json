@@ -1,0 +1,19 @@
+{
+  "name": "rsbuild-unplugin-vue-router",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.19",
+    "@rsbuild/plugin-vue": "^1.0.3",
+    "unplugin-vue-router": "^0.10.8"
+  }
+}
